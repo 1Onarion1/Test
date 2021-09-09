@@ -28,7 +28,7 @@ left_or_right = input("You're at a cross road. Where do you want to go? Type lef
 if left_or_right == "left":
     swim_or_wait = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
     if swim_or_wait == "wait":
-        which_door = input("").lower("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n")
+        which_door = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n")
         if which_door == "red":
             print("It's a room full of fire. Game Over.")
         elif which_door == "blue":
